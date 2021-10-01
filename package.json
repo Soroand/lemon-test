@@ -1,0 +1,88 @@
+{
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.x"
+  },
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "start": "react-native start",
+    "test": "jest",
+    "bundle": "react-native bundle --platform ios --dev false --entry-file index.js --bundle-output ./ios/main.jsbundle"
+  },
+  "dependencies": {
+    "@expo/react-native-action-sheet": "^3.10.0",
+    "@ptomasroos/react-native-multi-slider": "^2.2.2",
+    "@react-native-async-storage/async-storage": "^1.15.5",
+    "@react-native-community/blur": "^3.6.0",
+    "@react-navigation/bottom-tabs": "^5.11.11",
+    "@react-navigation/material-bottom-tabs": "^6.0.0-next.16",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.4",
+    "axios": "^0.21.1",
+    "context": "^1.1.4",
+    "expo": "~40.0.0",
+    "expo-splash-screen": "~0.8.0",
+    "expo-status-bar": "~1.0.3",
+    "expo-updates": "~0.4.0",
+    "formik": "^2.2.9",
+    "install": "^0.13.0",
+    "mobx": "^6.3.2",
+    "mobx-persist-store": "^1.0.3",
+    "mobx-react": "^7.2.0",
+    "moment": "^2.29.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "~0.63.4",
+    "react-native-confirmation-code-field": "^7.1.0",
+    "react-native-copilot": "^2.5.1",
+    "react-native-dash": "^0.0.11",
+    "react-native-device-info": "^8.1.3",
+    "react-native-formik": "^1.7.8",
+    "react-native-gesture-handler": "~1.8.0",
+    "react-native-global-font": "^1.0.2",
+    "react-native-i18n": "^2.0.15",
+    "react-native-image-crop-picker": "^0.36.2",
+    "react-native-input-scroll-view": "^1.11.0",
+    "react-native-intl-phone-input": "^1.2.26",
+    "react-native-keyboard-aware-scroll-view": "^0.9.4",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-masked-text": "^1.13.0",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-restart": "^0.0.22",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "~2.15.0",
+    "react-native-select-dropdown": "^1.0.6",
+    "react-native-size-matters": "^0.4.0",
+    "react-native-stars": "^1.2.2",
+    "react-native-svg": "^12.1.1",
+    "react-native-unimodules": "~0.12.0",
+    "react-native-uuid": "^2.0.1",
+    "react-native-web": "~0.13.12",
+    "react-navigation": "^4.4.4",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-jest": "~25.2.6",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.23.0",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react-native": "^3.10.0",
+    "jest": "~25.2.6",
+    "prettier": "^2.2.1",
+    "react-test-renderer": "~16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "private": true,
+  "rnpm": {
+    "assets": [
+      ".src/assets/fonts"
+    ]
+  }
+}
